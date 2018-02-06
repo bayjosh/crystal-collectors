@@ -108,7 +108,9 @@ function reset () {
 //If current value > goal-value, increase losses by one and reset game
 
 if (currentValue > goalValue) {
-    lossesText.text(losses+=1);
+    losses+=1;
+    lossesText.text(losses);
+    alert("YOU LOSE!");
     reset();
 
 
@@ -116,7 +118,9 @@ if (currentValue > goalValue) {
 //If current value === goal-value, increase wins by one and reset game
 
  } else if (currentValue === goalValue) {
-     winsText.text(wins+=1);
+     wins+=1;
+     winsText.text(wins);
+     alert("YOU WIN!");
      reset();
  }
 

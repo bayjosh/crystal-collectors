@@ -1,0 +1,35 @@
+body {
+    background-color: rgb(240, 185, 185)
+}
+
+.container {
+    background-image: url("crystal-background2.jpg");
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
+    font-size: 18px;
+    text-align: center;
+}
+
+#blue-btn {
+    border-width: 5px;
+    border-color: rgb(61, 162, 230);
+}
+
+#green-btn {
+    border-width: 5px;
+    border-color: rgb(42, 196, 68);
+}
+
+#red-btn {
+    border-width: 5px;
+    border-color: rgb(202, 55, 92);
+}
+
+#yellow-btn {
+    border-width: 5px;
+    border-color: rgb(241, 226, 14);
+}
+
+.goal-box, .current-values-box, .wins-box, .losses-box, .instructions {
+    background-color: white;
+}
+

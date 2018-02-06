@@ -11,50 +11,81 @@
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
+  <link rel="stylesheet" href="assets/css/style.css">
+
+  <style>
+  
+  
+
+  </style>
+
+
 </head>
 
 <body>
     
     <div class="container">
 
-        <h1>Crystal Collectors</h1>
+        <div class="row">
 
-        <button class="btn" id="blue-btn">
-            <span><img src=assets/images/bluecrystal.png></span>
-        </button>
+            <div class="col-md-6">
 
-        <button class= "btn" id="green-btn">
-                <span><img src=assets/images/greencrystal.png></span>
-        </button>
+                <div>
+                    <h1>Crystal Collectors</h1>
+                </div>
 
-        <button class= "btn" id="red-btn">
-                <span><img src=assets/images/redcrystal.png></span>
-        </button>
+                <div>
+                    <h2>Game Instructions:</h2>
+                </div>
 
-        <button class= "btn" id="yellow-btn">
-                <span><img src=assets/images/yellowcrystal.png></span>
-        </button>
+                <div class="instructions">
+                    <h3>Click the crystals to increase your current value by a MYSTERIOUS amount. Try to match the goal value to WIN! Go over and LOSE!</h3>
+                </div>
 
-        
-        <div>
-            Goal Value: <h3 id="goal-value"></h3>
-        </div>
 
-        <div>
-            Current Value: <h3 id="current-value"></h3>
-        </div>
+                <button class="btn" id="blue-btn">
+                    <span><img src=assets/images/bluecrystal.png></span>
+                </button>
 
-        <div>
-            Wins: <h3 id="wins"></h3>
-        </div>
+                <button class= "btn" id="green-btn">
+                        <span><img src=assets/images/greencrystal.png></span>
+                </button>
 
-        <div>
-            Losses: <h3 id="losses"></h3>
-        </div>
+                <button class= "btn" id="red-btn">
+                        <span><img src=assets/images/redcrystal.png></span>
+                </button>
+
+                <button class= "btn" id="yellow-btn">
+                        <span><img src=assets/images/yellowcrystal.png></span>
+                </button>
+                        
+                <div class="panel panel-default">
+                        <div class="panel-body">
+                    Goal Value: <h3 id="goal-value"></h3>
+                        </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        Current Value: <h3 id="current-value"></h3>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        Wins: <h3 id="wins"></h3>
+                    </div>
+                </div>
+
+                <div class="panel panel-default">
+                    <div class="panel-body">
+                        Losses: <h3 id="losses"></h3>
+                    </div>
+                </div>
             
+            </div>
             
-            
-        
+        </div>
     
     </div>
 
